@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* ПОДКЛЮЧЕНИЕ ШРИФТА */
+@font-face{
+	font-family: 'Golos UI Regular';
+	src: url("../fonts/Golos-UI_Regular.woff2");
+}
+
+body{
+	font-family: 'Golos UI Regular';
+	overflow-x: hidden;
+}
+
+/* НАСТРОЙКА ГЛАВНОГО МЕНЮ */
+.main-menu{
+	display: flex;
+	margin-top: 30px;
+	margin-left: 160px;
+}
+
+.main-menu p{
+	margin-top: 13px;
+	padding-left: 10px;
+	margin-left: 110px;
+}
+
+/* НАСТРОЙКА РАЗДЕЛИТЕЛЯ */
+.divide{
+	margin-top: 25px;
+	background: #fafafa;
+	width: 2000px;
+	height: 2px;
+}
+
+/* НАСТРОЙКА ЭКРАНА ТОВАРА */
+.item-card{
+	display: flex;
+}
+
+/* НАСТРОЙКА КАРТИНКИ */
+.item-pic img{
+	width: 450px;
+	height: 450px;
+}
+
+.item-pic{
+	margin-top: 85px;
+	margin-left: 170px;
+}
+
+/* НАСТРОЙКА ИНФОРМАЦИИ О ТОВАРЕ */
+.item-info{
+	margin-top: 80px;
+	margin-left: 70px;
+}
+
+.item-info h3{
+	margin-top: 40px;
+	font-size: 27px;
+}
+
+.item-info p{
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+#info{
+	margin-right: 190px;
+	font-size: 18px;
+}
+
+/* НАСТРОЙКА КНОПОК КОЛИЧЕСТВА И "ДОБАВИТЬ В КОРЗИНУ" */
+.cart-button{
+	display: flex;
+}
+
+.cart-button input[type="number"]{
+	margin-top: 44px;
+	margin-left: 14px;
+	height: 20px;
+}
+
+.cart-button input[type="button"]{
+	margin-top: 35px;
+	margin-left: 40px;
+	height: 42px;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 4px;
+	border: none;
+	background-color: #ff9933;
+	cursor: pointer;
+	color: white;
+}
